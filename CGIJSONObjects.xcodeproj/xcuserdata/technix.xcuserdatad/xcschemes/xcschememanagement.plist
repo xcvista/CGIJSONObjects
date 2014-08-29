@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CGIJSONRPC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>1D3E4FBD19652A3800EB847C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D3E4FE119656A8C00EB847C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D3E4FEB19656A8C00EB847C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
