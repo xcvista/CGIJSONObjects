@@ -359,6 +359,7 @@
 				TargetAttributes = {
 					1D3E4FB219652A3800EB847C = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = C568EPK3JP;
 					};
 					1D3E4FBD19652A3800EB847C = {
 						CreatedOnToolsVersion = 6.0;
@@ -580,6 +581,7 @@
 		1D3E4FCA19652A3800EB847C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -595,6 +597,7 @@
 		1D3E4FCB19652A3800EB847C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -729,6 +732,7 @@
 				1D3E4FCB19652A3800EB847C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3E4FCC19652A3800EB847C /* Build configuration list for PBXNativeTarget "CGIJSONObjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +741,7 @@
 				1D3E4FCE19652A3800EB847C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3E4FF519656A8C00EB847C /* Build configuration list for PBXNativeTarget "CGIJSONRPC" */ = {
 			isa = XCConfigurationList;
@@ -745,6 +750,7 @@
 				1D3E4FF719656A8C00EB847C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3E4FF819656A8C00EB847C /* Build configuration list for PBXNativeTarget "CGIJSONRPCTests" */ = {
 			isa = XCConfigurationList;
@@ -753,6 +759,7 @@
 				1D3E4FFA19656A8C00EB847C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
