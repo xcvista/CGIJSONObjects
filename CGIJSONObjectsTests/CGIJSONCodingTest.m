@@ -26,7 +26,7 @@
 
 @implementation CGIJSONCodingTest
 
-- (void)testCoding
+- (void)testObjectCoding
 {
     CGIJSONCodingTestTarget *source = [[CGIJSONCodingTestTarget alloc] init];
     source.string = @"source";
@@ -39,7 +39,7 @@
     XCTAssertEqualObjects(target, targetVerify, @"encoding");
 }
 
-- (void)testDecoding
+- (void)testObjectDecoding
 {
     id source = @{@"string": @"dest",
                   @"number": @21};
@@ -47,6 +47,23 @@
     
     XCTAssertEqualObjects(target.string, @"dest", @"decoding.string");
     XCTAssertEqual(target.number, 21, @"dest.number");
+}
+
+- (void)testArrayCoding
+{
+    id source = @[@"1", @"2", @"3"];
+    id target = [CGIJSONCoder JSONObjectFromObject:source];
+    
+    XCTAssertEqualObjects(source, target, @"encoding.stringArray");
+}
+
+- (void)testArrayDecoding
+{
+    id source = @[@"1", @"2", @"3"];
+    id target = [CGIJSONCoder objectOfClass:[NSString class]
+                             fromJSONObject:source];
+    
+    XCTAssertEqualObjects(source, target, @"decoding.stringArray");
 }
 
 @end
