@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D3E4FB219652A3800EB847C"
-               BuildableName = "CGIJSONObjects.framework"
-               BlueprintName = "CGIJSONObjects"
+               BlueprintIdentifier = "1D3E4FE119656A8C00EB847C"
+               BuildableName = "CGIJSONRPC.framework"
+               BlueprintName = "CGIJSONRPC"
+               ReferencedContainer = "container:CGIJSONObjects.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D3E4FEB19656A8C00EB847C"
+               BuildableName = "CGIJSONRPCTests.xctest"
+               BlueprintName = "CGIJSONRPCTests"
                ReferencedContainer = "container:CGIJSONObjects.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,13 +46,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D3E4FBD19652A3800EB847C"
-               BuildableName = "CGIJSONObjectsTests.xctest"
-               BlueprintName = "CGIJSONObjectsTests"
+               BlueprintIdentifier = "1D3E4FEB19656A8C00EB847C"
+               BuildableName = "CGIJSONRPCTests.xctest"
+               BlueprintName = "CGIJSONRPCTests"
                ReferencedContainer = "container:CGIJSONObjects.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D3E4FE119656A8C00EB847C"
+            BuildableName = "CGIJSONRPC.framework"
+            BlueprintName = "CGIJSONRPC"
+            ReferencedContainer = "container:CGIJSONObjects.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D3E4FE119656A8C00EB847C"
+            BuildableName = "CGIJSONRPC.framework"
+            BlueprintName = "CGIJSONRPC"
+            ReferencedContainer = "container:CGIJSONObjects.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D3E4FE119656A8C00EB847C"
+            BuildableName = "CGIJSONRPC.framework"
+            BlueprintName = "CGIJSONRPC"
+            ReferencedContainer = "container:CGIJSONObjects.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
