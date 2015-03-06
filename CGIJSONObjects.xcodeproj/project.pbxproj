@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D18F92D19C01D1C005378A6 /* CGIIntrospectionEmptyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D18F92C19C01D1C005378A6 /* CGIIntrospectionEmptyTest.m */; };
 		1D3E4FB919652A3800EB847C /* CGIJSONObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3E4FB819652A3800EB847C /* CGIJSONObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D3E4FBF19652A3800EB847C /* CGIJSONObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3E4FB319652A3800EB847C /* CGIJSONObjects.framework */; };
 		1D3E4FD119652A8600EB847C /* CGIIntrospectionSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3E4FCF19652A8600EB847C /* CGIIntrospectionSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D18F92C19C01D1C005378A6 /* CGIIntrospectionEmptyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIIntrospectionEmptyTest.m; sourceTree = "<group>"; };
 		1D3E4FB319652A3800EB847C /* CGIJSONObjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGIJSONObjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3E4FB719652A3800EB847C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3E4FB819652A3800EB847C /* CGIJSONObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGIJSONObjects.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		1D3E500C1969C5E700EB847C /* CGIArrayExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIArrayExtension.h; sourceTree = "<group>"; };
 		1D3E500D1969C5E700EB847C /* CGIArrayExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIArrayExtension.m; sourceTree = "<group>"; };
 		1D3E5010196A8A7A00EB847C /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		1DFC75D91AA9612800662612 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 		1D3E4FA919652A3800EB847C = {
 			isa = PBXGroup;
 			children = (
+				1DFC75D91AA9612800662612 /* README.md */,
 				1D3E4FB519652A3800EB847C /* CGIJSONObjects */,
 				1D3E4FC219652A3800EB847C /* CGIJSONObjectsTests */,
 				1D3E4FE319656A8C00EB847C /* CGIJSONRPC */,
@@ -190,6 +194,7 @@
 			children = (
 				1D3E4FD51965305A00EB847C /* CGIIntrospectionTest.m */,
 				1D3E4FDB1965661200EB847C /* CGIJSONCodingTest.m */,
+				1D18F92C19C01D1C005378A6 /* CGIIntrospectionEmptyTest.m */,
 				1D3E4FC319652A3800EB847C /* Supporting Files */,
 			);
 			path = CGIJSONObjectsTests;
@@ -442,6 +447,7 @@
 			files = (
 				1D3E4FD61965305A00EB847C /* CGIIntrospectionTest.m in Sources */,
 				1D3E4FDC1965661200EB847C /* CGIJSONCodingTest.m in Sources */,
+				1D18F92D19C01D1C005378A6 /* CGIIntrospectionEmptyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

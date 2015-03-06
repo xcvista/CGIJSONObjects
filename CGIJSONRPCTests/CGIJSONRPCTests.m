@@ -62,6 +62,7 @@
 
 - (Class)connection:(CGIJSONConnection *)connection classForRemoteMethod:(NSString *)remoteMethod
 {
+    XCTAssertEqualObjects(remoteMethod, @"test", "MethodParse");
     return [CGIJSONRPCTestTargetClass class];
 }
 
