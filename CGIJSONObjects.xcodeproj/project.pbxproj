@@ -9,7 +9,25 @@
 /* Begin PBXBuildFile section */
 		1D70D9E31ACCD04F000D0EE1 /* CGIJSONObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70D9E21ACCD04F000D0EE1 /* CGIJSONObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D70D9E91ACCD04F000D0EE1 /* CGIJSONObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D70D9DD1ACCD04F000D0EE1 /* CGIJSONObjects.framework */; };
-		1D70D9F01ACCD04F000D0EE1 /* CGIJSONObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70D9EF1ACCD04F000D0EE1 /* CGIJSONObjectsTests.m */; };
+		1D70D9FB1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70D9F91ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D70D9FC1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70D9FA1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.m */; };
+		1D70D9FE1ACCD5AC000D0EE1 /* CGIJSONDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70D9FD1ACCD5AC000D0EE1 /* CGIJSONDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D70DA0D1ACCEEB1000D0EE1 /* CGIIntrospectionEmptyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA0A1ACCEEB1000D0EE1 /* CGIIntrospectionEmptyTest.m */; };
+		1D70DA0E1ACCEEB1000D0EE1 /* CGIIntrospectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA0B1ACCEEB1000D0EE1 /* CGIIntrospectionTest.m */; };
+		1D70DA151ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70DA131ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D70DA161ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA141ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.m */; };
+		1D70DA181ACCFF27000D0EE1 /* CGIMethodSwizzleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA171ACCFF27000D0EE1 /* CGIMethodSwizzleTest.m */; };
+		1D70DA1D1ACD135C000D0EE1 /* CGIJSONCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70DA1B1ACD135C000D0EE1 /* CGIJSONCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D70DA1E1ACD135C000D0EE1 /* CGIJSONCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA1C1ACD135C000D0EE1 /* CGIJSONCoder.m */; };
+		1D70DA201ACD18D4000D0EE1 /* CGIJSONCodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA0C1ACCEEB1000D0EE1 /* CGIJSONCodingTest.m */; };
+		1D70DA581ACD2CAF000D0EE1 /* CGIJSONConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70DA541ACD2CAF000D0EE1 /* CGIJSONConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D70DA591ACD2CAF000D0EE1 /* CGIJSONConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA551ACD2CAF000D0EE1 /* CGIJSONConnection.m */; };
+		1D70DA5A1ACD2CAF000D0EE1 /* CGIJSONInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70DA561ACD2CAF000D0EE1 /* CGIJSONInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D70DA5B1ACD2CAF000D0EE1 /* CGIJSONInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA571ACD2CAF000D0EE1 /* CGIJSONInvocation.m */; };
+		1D70DA5E1ACD2D3B000D0EE1 /* CGIArrayExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70DA5C1ACD2D3B000D0EE1 /* CGIArrayExtension.h */; };
+		1D70DA5F1ACD2D3B000D0EE1 /* CGIArrayExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA5D1ACD2D3B000D0EE1 /* CGIArrayExtension.m */; };
+		1D70DA621ACD3190000D0EE1 /* CGIJSONRPCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70DA601ACD3190000D0EE1 /* CGIJSONRPCTests.m */; };
+		1D70DA631ACD3190000D0EE1 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D70DA611ACD3190000D0EE1 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +46,27 @@
 		1D70D9E21ACCD04F000D0EE1 /* CGIJSONObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGIJSONObjects.h; sourceTree = "<group>"; };
 		1D70D9E81ACCD04F000D0EE1 /* CGIJSONObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGIJSONObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D70D9EE1ACCD04F000D0EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D70D9EF1ACCD04F000D0EE1 /* CGIJSONObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGIJSONObjectsTests.m; sourceTree = "<group>"; };
+		1D70D9F91ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGIKeyValueCoding.h"; sourceTree = "<group>"; };
+		1D70D9FA1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGIKeyValueCoding.m"; sourceTree = "<group>"; };
+		1D70D9FD1ACCD5AC000D0EE1 /* CGIJSONDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIJSONDefines.h; sourceTree = "<group>"; };
+		1D70D9FF1ACCDABA000D0EE1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1D70DA011ACCDAEC000D0EE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D70DA0A1ACCEEB1000D0EE1 /* CGIIntrospectionEmptyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIIntrospectionEmptyTest.m; sourceTree = "<group>"; };
+		1D70DA0B1ACCEEB1000D0EE1 /* CGIIntrospectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIIntrospectionTest.m; sourceTree = "<group>"; };
+		1D70DA0C1ACCEEB1000D0EE1 /* CGIJSONCodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIJSONCodingTest.m; sourceTree = "<group>"; };
+		1D70DA131ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGIMethodSwizzling.h"; sourceTree = "<group>"; };
+		1D70DA141ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGIMethodSwizzling.m"; sourceTree = "<group>"; };
+		1D70DA171ACCFF27000D0EE1 /* CGIMethodSwizzleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIMethodSwizzleTest.m; sourceTree = "<group>"; };
+		1D70DA1B1ACD135C000D0EE1 /* CGIJSONCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIJSONCoder.h; sourceTree = "<group>"; };
+		1D70DA1C1ACD135C000D0EE1 /* CGIJSONCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIJSONCoder.m; sourceTree = "<group>"; };
+		1D70DA541ACD2CAF000D0EE1 /* CGIJSONConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIJSONConnection.h; sourceTree = "<group>"; };
+		1D70DA551ACD2CAF000D0EE1 /* CGIJSONConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIJSONConnection.m; sourceTree = "<group>"; };
+		1D70DA561ACD2CAF000D0EE1 /* CGIJSONInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIJSONInvocation.h; sourceTree = "<group>"; };
+		1D70DA571ACD2CAF000D0EE1 /* CGIJSONInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIJSONInvocation.m; sourceTree = "<group>"; };
+		1D70DA5C1ACD2D3B000D0EE1 /* CGIArrayExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIArrayExtension.h; sourceTree = "<group>"; };
+		1D70DA5D1ACD2D3B000D0EE1 /* CGIArrayExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIArrayExtension.m; sourceTree = "<group>"; };
+		1D70DA601ACD3190000D0EE1 /* CGIJSONRPCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIJSONRPCTests.m; sourceTree = "<group>"; };
+		1D70DA611ACD3190000D0EE1 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +91,8 @@
 		1D70D9D31ACCD04F000D0EE1 = {
 			isa = PBXGroup;
 			children = (
+				1D70D9FF1ACCDABA000D0EE1 /* .gitignore */,
+				1D70DA011ACCDAEC000D0EE1 /* README.md */,
 				1D70D9DF1ACCD04F000D0EE1 /* CGIJSONObjects */,
 				1D70D9EC1ACCD04F000D0EE1 /* CGIJSONObjectsTests */,
 				1D70D9DE1ACCD04F000D0EE1 /* Products */,
@@ -72,6 +112,19 @@
 			isa = PBXGroup;
 			children = (
 				1D70D9E21ACCD04F000D0EE1 /* CGIJSONObjects.h */,
+				1D70D9FD1ACCD5AC000D0EE1 /* CGIJSONDefines.h */,
+				1D70D9F91ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.h */,
+				1D70D9FA1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.m */,
+				1D70DA131ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.h */,
+				1D70DA141ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.m */,
+				1D70DA1B1ACD135C000D0EE1 /* CGIJSONCoder.h */,
+				1D70DA1C1ACD135C000D0EE1 /* CGIJSONCoder.m */,
+				1D70DA5C1ACD2D3B000D0EE1 /* CGIArrayExtension.h */,
+				1D70DA5D1ACD2D3B000D0EE1 /* CGIArrayExtension.m */,
+				1D70DA541ACD2CAF000D0EE1 /* CGIJSONConnection.h */,
+				1D70DA551ACD2CAF000D0EE1 /* CGIJSONConnection.m */,
+				1D70DA561ACD2CAF000D0EE1 /* CGIJSONInvocation.h */,
+				1D70DA571ACD2CAF000D0EE1 /* CGIJSONInvocation.m */,
 				1D70D9E01ACCD04F000D0EE1 /* Supporting Files */,
 			);
 			path = CGIJSONObjects;
@@ -88,7 +141,12 @@
 		1D70D9EC1ACCD04F000D0EE1 /* CGIJSONObjectsTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D70D9EF1ACCD04F000D0EE1 /* CGIJSONObjectsTests.m */,
+				1D70DA0A1ACCEEB1000D0EE1 /* CGIIntrospectionEmptyTest.m */,
+				1D70DA0B1ACCEEB1000D0EE1 /* CGIIntrospectionTest.m */,
+				1D70DA171ACCFF27000D0EE1 /* CGIMethodSwizzleTest.m */,
+				1D70DA0C1ACCEEB1000D0EE1 /* CGIJSONCodingTest.m */,
+				1D70DA601ACD3190000D0EE1 /* CGIJSONRPCTests.m */,
+				1D70DA611ACD3190000D0EE1 /* test.json */,
 				1D70D9ED1ACCD04F000D0EE1 /* Supporting Files */,
 			);
 			path = CGIJSONObjectsTests;
@@ -109,7 +167,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D70DA5E1ACD2D3B000D0EE1 /* CGIArrayExtension.h in Headers */,
+				1D70D9FE1ACCD5AC000D0EE1 /* CGIJSONDefines.h in Headers */,
+				1D70D9FB1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.h in Headers */,
+				1D70DA581ACD2CAF000D0EE1 /* CGIJSONConnection.h in Headers */,
+				1D70DA1D1ACD135C000D0EE1 /* CGIJSONCoder.h in Headers */,
 				1D70D9E31ACCD04F000D0EE1 /* CGIJSONObjects.h in Headers */,
+				1D70DA5A1ACD2CAF000D0EE1 /* CGIJSONInvocation.h in Headers */,
+				1D70DA151ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +223,7 @@
 		1D70D9D41ACCD04F000D0EE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CGI;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = DreamCity;
 				TargetAttributes = {
@@ -199,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D70DA631ACD3190000D0EE1 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D70DA161ACCFA90000D0EE1 /* NSObject+CGIMethodSwizzling.m in Sources */,
+				1D70DA1E1ACD135C000D0EE1 /* CGIJSONCoder.m in Sources */,
+				1D70DA5B1ACD2CAF000D0EE1 /* CGIJSONInvocation.m in Sources */,
+				1D70DA5F1ACD2D3B000D0EE1 /* CGIArrayExtension.m in Sources */,
+				1D70D9FC1ACCD08D000D0EE1 /* NSObject+CGIKeyValueCoding.m in Sources */,
+				1D70DA591ACD2CAF000D0EE1 /* CGIJSONConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D70D9F01ACCD04F000D0EE1 /* CGIJSONObjectsTests.m in Sources */,
+				1D70DA0D1ACCEEB1000D0EE1 /* CGIIntrospectionEmptyTest.m in Sources */,
+				1D70DA181ACCFF27000D0EE1 /* CGIMethodSwizzleTest.m in Sources */,
+				1D70DA0E1ACCEEB1000D0EE1 /* CGIIntrospectionTest.m in Sources */,
+				1D70DA201ACD18D4000D0EE1 /* CGIJSONCodingTest.m in Sources */,
+				1D70DA621ACD3190000D0EE1 /* CGIJSONRPCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -309,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,6 +399,7 @@
 		1D70D9F41ACCD04F000D0EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -337,6 +415,7 @@
 		1D70D9F51ACCD04F000D0EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -352,6 +431,7 @@
 		1D70D9F71ACCD04F000D0EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -363,12 +443,14 @@
 				INFOPLIST_FILE = CGIJSONObjectsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1D70D9F81ACCD04F000D0EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -398,6 +480,7 @@
 				1D70D9F51ACCD04F000D0EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D70D9F61ACCD04F000D0EE1 /* Build configuration list for PBXNativeTarget "CGIJSONObjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +489,7 @@
 				1D70D9F81ACCD04F000D0EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

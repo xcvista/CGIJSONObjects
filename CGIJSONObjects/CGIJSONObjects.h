@@ -16,4 +16,10 @@ FOUNDATION_EXPORT const unsigned char CGIJSONObjectsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CGIJSONObjects/PublicHeader.h>
 
+#import <CGIJSONObjects/CGIJSONDefines.h>
+#import <CGIJSONObjects/NSObject+CGIKeyValueCoding.h>
+#import <CGIJSONObjects/NSObject+CGIMethodSwizzling.h>
 
+#import <CGIJSONObjects/CGIJSONCoder.h>
+#import <CGIJSONObjects/CGIJSONConnection.h>
+#import <CGIJSONObjects/CGIJSONInvocation.h>
